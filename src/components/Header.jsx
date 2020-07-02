@@ -4,7 +4,7 @@ import App from '../App';
 function Header(){
     
     return(
-        <h1>Desde el header</h1>
+        <h1 id="encabezado" className="encabezado">Tienda Virtual</h1>
     )
 }
 
