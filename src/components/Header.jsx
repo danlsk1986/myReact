@@ -1,10 +1,12 @@
 import React from 'react';
 import App from '../App';
 
+
+//Function Declaration
 function Header(){
     
     return(
-        <h1 id="encabezado" className="encabezado">Tienda Virtual</h1>
+        <h1 className="encabezado">Tienda Virtual</h1>
     )
 }
 
