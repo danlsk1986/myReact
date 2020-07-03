@@ -4,12 +4,13 @@ import React from 'react';
 
 //El parentesis indica que tenemos un return
 
-const Footer = () =>  (
+const Footer = ({fecha}) =>  (
         <footer>
-            <p>Todos los derechos reservados &copy;</p>
+            <p>Todos los derechos reservados &copy; {fecha}</p>
         </footer>
 
       );
 
  
 export default Footer;
+

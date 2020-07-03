@@ -3,10 +3,10 @@ import App from '../App';
 
 
 //Function Declaration
-function Header(){
+function Header({titulo}){
     
     return(
-        <h1 className="encabezado">Tienda Virtual</h1>
+    <h1 className="encabezado">{titulo}</h1>
     )
 }
 
